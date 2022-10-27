@@ -1,0 +1,70 @@
+.layui-icon {
+    margin-right: 8px;
+}
+
+.iconfont {
+    margin-right: 8px;
+}
+
+.layui-nav-child a {
+    margin-left: 20px;
+}
+
+.layui-footer {
+    text-align: center;
+}
+
+/* logo图显示 */
+.layui-layout-admin .layui-side {
+    top: 0;
+}
+
+.layui-side {
+    z-index: 1000;
+}
+
+.layui-layout-admin .layui-logo {
+    left: 201px;
+}
+
+/* iframe显示 */
+iframe {
+    width: 100%;
+    height: 100%;
+}
+
+.layui-body {
+    overflow: hidden;
+}
+
+/* 头像 */
+.user-info {
+    height: 60px;
+    line-height: 60px;
+    padding-left: 30px;
+    font-size: 12px;
+    /* 禁止内容选中 */
+    user-select: none;
+    border-bottom: 1px solid #282b33;
+}
+
+/* 文字头像 */
+.text-avatar {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-color: #009688;
+    line-height: 30px;
+    text-align: center;
+    border-radius: 50%;
+    color: #fff;
+    font-size: 20px;
+    position: relative;
+    top: 5px;
+    margin-right: 10px;
+}
+
+/* 顶部导航的个人中心下拉菜单被覆盖 修改 */
+.layui-layout-right {
+    z-index: 999;
+}
